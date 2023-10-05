@@ -4,6 +4,7 @@ const paragraphEle=document.getElementById("paraCal");
 function calculate(){
     let valueInput=parseInt(inputValue.value);
     let caluculatedValue=valueInput*30;
-    paragraphEle.textContent="You have to pay the amount of ₹"+caluculatedValue;
+    paragraphEle.textContent="You have to pay the amount of "+caluculatedValue+"/-";
     paragraphEle.style.color="red";
+    paragraphEle.style.fontSize="20px";
 }
